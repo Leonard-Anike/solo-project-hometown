@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main {
+    background-image: url(images/unizik.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0px 0px 150px 0px;
+    height: 50vh;
+    border-bottom: 5px solid #E9B34F;
+}
+
+#logo {
+    margin-top:-200px;
+    margin-right: -100px;
+    margin-left: 1050px;
+    height: 130px;
+    transition: all ease 300ms;
+}
+
+#logo:hover {
+    background-color: rgb(215, 221, 221);
+    border-radius: 5px;
+    padding: 5px 3px;
+    height: 220px;
+    width: 185px;
+}
+
+ h3 {
+    font-size: 40px;
+    color: #E9B34F;
+    text-shadow: -5px 0px 3px rgb(15, 15, 15);
+}
+
+h1 {
+    color: rgb(226, 222, 222);
+    text-shadow: -5px 0px 1px rgb(15, 15, 15);
+    padding-top: 30px;
+    font-size: 70px;
+}
+
+.motto {
+    color: rgb(252, 250, 250);
+    font-size: 17px;
+    text-shadow: 1px 0px 1px rgb(206, 200, 200);
+    background-color: #992A19;
+    margin: 10px 480px;
+    padding: 6px 8px;
+    border-radius: 7px;
+}
+
+.middle {
+    background-color: #ECEFF7;
+    background: linear-gradient( #D1DBE8, #4A2D25, #FFFFFF);
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+    font-size: 20px;
+    border-bottom: 5px solid #E9B34F;
+    
+}
+
+#faculty-img {
+    margin-top: 40px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 767px) {
+    .middle {
+        flex-direction: column;
+    }
+}
+
+.m {
+    background-color: #4A2D25;
+    padding: 10px 17px 7px;
+    margin: 5px 10px 100px 20px;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    border-radius: 16px;
+    color: #E9B34F;
+    font-size: 15px;
+}
+
+.bottom {
+    background-color: #D75225;
+    display: inline-flex;
+    width: 700px;
+    height: 300px;
+    padding: 30px;
+    margin: 40px 0px 30px 0px;
+    border-bottom: 15px solid #4A2D25;
+    border-radius: 10px;
+}
+
+.bottom-img {
+    border-radius: 15px;
+}
+
+.bottom-text {
+    color: #ffffff;  
+    margin: 20px 100px;    
+}
+
+.bottom-text-heading {
+    color: #E9B34F;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.bottom-text-last {
+    margin-top: 35px;
+}
